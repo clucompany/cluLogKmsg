@@ -1,0 +1,11 @@
+[package]
+name = "cluLogKmsg"
+version = "0.1.0"
+authors = ["Денис Котляров <denis2005991@gmail.com>"]
+
+[lib]
+name = "cluLogKmsg"
+path = "src/lib.rs"
+
+[dependencies]
+cluLog = { git = "https://github.com/clucompany/cluLog" }
