@@ -5,7 +5,7 @@ extern crate cluLogKmsg;
 
 use cluLogKmsg::default_open_kmsg;
 
-pub fn main() {     
+pub fn main() {
      cluLog::set_logger(default_open_kmsg().unwrap());
 
 
