@@ -25,6 +25,7 @@ pub fn main() {
      }
      
      println!("123");
+     eprintln!("e123\n10");
      trace!("Test");
      err!("Warning");
      inf!("My info");
